@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kids Learn Read</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 2rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 1.1rem;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #E8E8E8;
+            border-radius: 10px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 1.2rem;
+            background: var(--gradient-2);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 107, 157, 0.3);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 157, 0.4);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            color: var(--text-gray);
+            margin: 0.5rem 0;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">✏️</span>
+                <span class="logo-text">Kids Learn Read</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="printables.html">Printables</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Get In Touch</h1>
+        <p>We'd love to hear from you!</p>
+    </section>
+
+    <section class="content-section">
+    <div class="contact-form">
+        <h2 style="text-align: center; font-family: 'Fredoka', sans-serif; color: var(--accent-color); margin-bottom: 1.5rem;">Let's Connect!</h2>
+        
+        <p style="text-align: center; font-size: 1.2rem; color: var(--text-gray); margin-bottom: 2rem;">
+            We love hearing from parents, teachers, and fellow education enthusiasts! Whether you have questions about our printables, suggestions for new resources, or just want to say hello, we're here to help.
+        </p>
+
+        <div style="text-align: center; background: linear-gradient(135deg, #FFF5F7 0%, #FFE8EE 100%); padding: 3rem; border-radius: 20px; margin: 2rem 0;">
+            <p style="font-size: 1.4rem; margin-bottom: 1rem;">
+                📧 <strong>Email us at:</strong>
+            </p>
+            <p style="font-size: 1.5rem;">
+                <a href="mailto:kidseducationalsolutions@gmail.com" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">kidseducationalsolutions (at) gmail (dot) com</a>
+            </p>
+            <p style="font-size: 1.1rem; color: var(--text-gray); margin-top: 1.5rem;">
+                We typically respond within 24-48 hours
+            </p>
+        </div>
+
+        <p style="text-align: center; font-size: 1.1rem; color: var(--text-gray); line-height: 1.8;">
+            Have a specific question about a printable? Looking for custom resources? Want to collaborate? We'd love to hear from you! Just click the email address above or send us a message directly from your email client.
+        </p>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2022-Present. Kids Learn Read All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
